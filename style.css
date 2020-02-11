@@ -17,9 +17,18 @@ h2 {
   margin-top: 0px;
 }
 p.one {
-  font-size: 17px;
-  font-family: Arial;
+  font-size: 20px;
+  font-family: Arial Black;
 }
 button{
   margin-left: 20px;
+}
+p.two {
+  font-size: 17px;
+  font-family: Arial;
+}
+h3{
+  text-align: left;
+  font-family: Arial;
+  font-size: 20px;
 }
