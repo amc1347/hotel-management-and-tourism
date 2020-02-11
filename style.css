@@ -23,11 +23,16 @@ p.one {
 button{
   margin-left: 20px;
 }
-p.two {
+p {
   font-size: 17px;
   font-family: Arial;
 }
-h3{
+h3 {
+  text-align: left;
+  font-family: Arial;
+  font-size: 20px;
+}
+h4 {
   text-align: left;
   font-family: Arial;
   font-size: 20px;
