@@ -16,34 +16,44 @@ h2 {
   background-color: #00704A;
   margin-top: 0px;
 }
+
 p.one {
   font-size: 20px;
   font-family: Arial Black;
 }
-button{
+button {
   margin-left: 20px;
+  align-items: center;
 }
+
 p {
   font-size: 17px;
   font-family: Arial;
 }
-h3 {
+
+h3, h4, h5, h6 {
   text-align: left;
   font-family: Arial;
   font-size: 20px;
 }
-h4 {
-  text-align: left;
-  font-family: Arial;
-  font-size: 20px;
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  line-height: 50%;
 }
-h5 {
-  text-align: left;
-  font-family: Arial;
-  font-size: 20px;
+
+button:hover {
+  color: purple;
 }
-h6{
-  text-align: left;
-  font-family: Arial;
-  font-size: 20px;
+
+.two {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px;
+  border-style: solid;
 }
